@@ -6,7 +6,7 @@ let numero3 = parseInt(prompt("Ingrese su tercer numero: "));
 if (numero1 > numero2 && numero1 > numero3) {
   document.write(`El numero mas grande es el ${numero1}`);
 }
-if (numero2 > numero1 && numero2 > numero3) {
+else if ((numero2 > numero1) && (numero2 > numero3)) {
   document.write(`El numero mas grande es el ${numero2}`);
 } else {
   document.write(`El numero mas grande es el ${numero3}`);
