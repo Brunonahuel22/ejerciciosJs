@@ -8,5 +8,5 @@ if (numeroIngresado % 2 == 0) {
 } else if (numeroIngresado % 5 == 0) {
   alert("El numero ingresado es divisible en 5");
 } else if (numeroIngresado % 7 == 0) {
-  alert("El numero ingresado es divisible en 5");
+  alert("El numero ingresado es divisible en 7");
 }
