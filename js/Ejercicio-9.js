@@ -10,19 +10,19 @@ let vocalesEncontradas = '';
 while (contador < longitud) {
     let caracter = frase.charAt(contador);
     
-    if (caracter == 'a' || caracter == 'A') {
+    if ((caracter == 'a') || (caracter == 'A')) {
         vocalesEncontradas += caracter; 
     } 
-    else if (caracter == 'e' || caracter == 'E') {
+    else if ((caracter == 'e') || (caracter == 'E')) {
         vocalesEncontradas += caracter; 
     } 
-    else if (caracter == 'i' || caracter == 'I') {
+    else if ((caracter == 'i') || (caracter == 'I')) {
         vocalesEncontradas += caracter; 
     } 
-    else if (caracter == 'o' || caracter == 'O') {
+    else if ((caracter == 'o') || (caracter == 'O')) {
         vocalesEncontradas += caracter; 
     } 
-    else if (caracter == 'u' || caracter == 'U') {
+    else if ((caracter == 'u') || (caracter == 'U')) {
         vocalesEncontradas += caracter; 
     } 
     
